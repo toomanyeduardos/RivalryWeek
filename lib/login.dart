@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rivalry_week/rivalryAppWrapper.dart';
 import 'package:flutter/foundation.dart';
+import 'package:rivalry_week/teamSelection.dart';
 
 class Login extends StatefulWidget {
   final String appTitle;
@@ -29,6 +30,13 @@ class LoginState extends State<Login> {
     );
   }
 
+  void continueAsGuest() {
+    print("Guest login button pressed!");
+
+    Navigator.push(context,
+        new MaterialPageRoute(builder: (context) => new TeamSelection()));
+  }
+
   @override
   Widget build(BuildContext context) {
     return new RivalryAppWrapper(
@@ -47,7 +55,7 @@ class LoginState extends State<Login> {
                   child: new ButtonBar(children: <Widget>[
                     new RaisedButton(
                         onPressed: () {
-                          print("Guest login button pressed!");
+                          continueAsGuest();
                         },
                         child: const Text("Continue as a guest"),
                         color: Colors.lightBlueAccent
