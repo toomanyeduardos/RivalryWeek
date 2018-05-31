@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "329304407890",
+    "firebase_url": "https://rivalryweek-44592.firebaseio.com",
+    "project_id": "rivalryweek-44592",
+    "storage_bucket": "rivalryweek-44592.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329304407890:android:50e4d2c1e792e85b",
+        "android_client_info": {
+          "package_name": "com.sandcrawler.rivalryweek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329304407890-pj1313pgb2p0ggc8d0hihj4s8nfvqqt6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "329304407890-pj1313pgb2p0ggc8d0hihj4s8nfvqqt6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwk5LSHzpLuBD32dS1Ow7jZIDvT6aPoJ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
